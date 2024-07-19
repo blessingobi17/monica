@@ -6,6 +6,10 @@ import iconClose from "../assets/images/icons/icon-close.svg";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   const linkClass = ({ isActive }) => (isActive ? "text-Creamm" : "text-Ash");
 
   return (
@@ -39,22 +43,38 @@ const Navbar = () => {
              text-Ash  pt-16 "
               >
                 <li>
-                  <NavLink to="/about" className={linkClass}>
+                  <NavLink
+                    to="/about"
+                    className={linkClass}
+                    onClick={closeMenu}
+                  >
                     About
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/service" className={linkClass}>
+                  <NavLink
+                    to="/service"
+                    className={linkClass}
+                    onClick={closeMenu}
+                  >
                     Service
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/journal" className={linkClass}>
+                  <NavLink
+                    to="/journal"
+                    className={linkClass}
+                    onClick={closeMenu}
+                  >
                     Journal
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact" className={linkClass}>
+                  <NavLink
+                    to="/contact"
+                    className={linkClass}
+                    onClick={closeMenu}
+                  >
                     Contact
                   </NavLink>
                 </li>
