@@ -20,7 +20,9 @@ const Navbar = () => {
       >
         <div className="flex items-baseline justify-between w-full gap-10">
           <div className="font-dmSerif text-Creamm text-3xl">
-            <NavLink to="/">Monica.</NavLink>
+            <NavLink to="/" onClick={closeMenu}>
+              Monica.
+            </NavLink>
           </div>
           <div
             className="lg:hidden block cursor-pointer"
