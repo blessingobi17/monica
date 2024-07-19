@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.monica::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: -12%;
+  height: 1px;
+  width: 60px;
+  background: hsla(35, 87%, 49%, 1);
+}
+
+.reactIcons {
+  color: hsla(39, 93%, 95%, 1);
+  height: 25px;
+  width: 25px;
+}
+
+.swiper {
+  --swiper-pagination-color: hsla(127, 8%, 22%, 1);
+}
+
+@media (max-width: 767px) {
+  .monica::before {
+    width: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 884px) {
+  .monica::before {
+    width: 40px;
+    left: -7%;
+  }
+}
