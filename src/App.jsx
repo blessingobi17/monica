@@ -1,8 +1,8 @@
 import {
   Route,
-  createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
+  createHashRouter,
 } from "react-router-dom";
 import MainLayout from "./Layouts/MainLayout";
 import Homepage from "./pages/Homepage";
@@ -12,7 +12,7 @@ import Journalpage from "./pages/Journalpage";
 import Contactpage from "./pages/Contactpage";
 
 function App() {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Homepage />} />

@@ -89,14 +89,14 @@ const Footer = () => {
                 Distribution By <span className="text-Creamm">ThemeWagon</span>
               </p>
             </div>
-            <button
+            <div
               className="text-Creamm border flex items-center justify-center rounded-full
              w-12 h-12"
             >
               <button onClick={scrollToTop}>
                 <FaArrowUp />
               </button>
-            </button>
+            </div>
           </div>
         </div>
       </div>
