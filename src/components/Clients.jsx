@@ -55,7 +55,7 @@ const Clients = () => {
             <img src={flash} alt="" className="w-52" />
           </div>
           <div
-            className=" border py-8 flex items-center justify-center   hover:bg-Orangee
+            className="border py-8 flex items-center justify-center hover:bg-Orangee
             transition duration-700 ease-in-out"
           >
             <img src={rise} alt="" className="w-52" />

@@ -1,4 +1,4 @@
-import clients from "../clients.json";
+import clients from "/data/clients.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";

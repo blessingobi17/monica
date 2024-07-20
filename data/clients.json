@@ -2,28 +2,28 @@
   {
     "id": 1,
     "testimonial": "Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit  debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.",
-    "image": "public/assets/images/avatars/user-01.jpg",
+    "image": "assets/images/avatars/user-01.jpg",
     "name": "John Rockefeller",
     "company": "Standard Oil Co."
   },
   {
     "id": 2,
     "testimonial": "Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit  debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.",
-    "image": "public/assets/images/avatars/user-02.jpg",
+    "image": "assets/images/avatars/user-02.jpg",
     "name": "Andrew Carnegie",
     "company": "Carnegie Steel Co."
   },
   {
     "id": 3,
     "testimonial": "Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit  debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.",
-    "image": "public/assets/images/avatars/user-03.jpg",
+    "image": "assets/images/avatars/user-03.jpg",
     "name": "Henry Ford",
     "company": "Ford Motor Co."
   },
   {
     "id": 4,
     "testimonial": "Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit  debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.",
-    "image": "public/assets/images/avatars/user-04.jpg",
+    "image": "assets/images/avatars/user-04.jpg",
     "name": "JP Morgan",
     "company": "JP Morgan & Co."
   }
