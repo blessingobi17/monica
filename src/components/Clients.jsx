@@ -85,7 +85,8 @@ const Clients = () => {
             <img src={vision} alt="" className="w-52" />
           </div>
           <div
-            className="border lg:border-x-0 border-x md:border-t border-t-0 py-8 flex items-center justify-center
+            className="border lg:border-x-0 border-x lg:border-t-0 md:border-t border-t-0 
+            py-8 flex items-center justify-center
              hover:bg-Orangee transition duration-700 ease-in-out"
           >
             <img src={volume} alt="" className="w-52" />

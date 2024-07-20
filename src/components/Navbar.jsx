@@ -86,6 +86,7 @@ const Navbar = () => {
                   <button
                     className="bg-Orangee hover:bg-LightOrange transition duration-500 ease-in-out 
                     text-Blackk px-8 py-4 rounded-md font-roboto font-medium my-14 w-full"
+                    onClick={closeMenu}
                   >
                     Let's Work Together
                   </button>
